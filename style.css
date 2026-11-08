@@ -1,0 +1,61 @@
+body {
+    background-color: #5c7072;
+    font-family: Kaisei Decol;
+    color: #f9f8ec;
+}
+
+.header_photo {
+    object-fit: cover;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 23%;
+    border-style: groove;
+    border-radius: 24px;
+    padding-left: 20px;
+}
+
+.photo {
+    margin-top: 40px;
+    border-style: groove;
+    border-radius: 24px;
+    padding-left: 20px;
+}
+
+.photo_item {
+    width: 19.5%;
+}
+
+.contact_form {
+    margin-top: 40px;
+    border-style: groove;
+    width: 300px;
+    border-radius: 24px;
+}
+
+.form_wrapper div {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+button {
+    background-color: #f9f8ec;
+    color: #5c7072;
+    padding: 10px 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #f9f8ec;
+    color: #5c7072;
+}
