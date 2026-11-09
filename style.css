@@ -16,10 +16,11 @@ h1 {
 .content_wrapper {
     display: flex;
     justify-content: space-between;
+    gap: 10px;
 }
 
 .content {
-    width: 23%;
+    flex: 1;
     border-style: groove;
     border-radius: 24px;
     padding-left: 20px;
